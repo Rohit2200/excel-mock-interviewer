@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from backend.gemini import evaluate_answer, model
+from gemini import evaluate_answer, model
 import json
 import ast
 import re
