@@ -3,7 +3,7 @@ import requests
 import json
 import pandas as pd
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://excel-mock-interviewer-2.onrender.com"
 TOTAL_QUESTIONS = 8
 
 st.set_page_config(page_title="Excel Mock Interviewer", page_icon="🤖")
