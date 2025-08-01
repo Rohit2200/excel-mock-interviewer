@@ -20,7 +20,7 @@ app.add_middleware(
 # -------------------------------
 # In-memory session store
 # -------------------------------
-session_questions = {}  # {session_id: {"questions": [...], "index": 0, "history": [...]}}
+session_questions = {} 
 
 
 # -------------------------------
